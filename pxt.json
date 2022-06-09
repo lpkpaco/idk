@@ -1,0 +1,27 @@
+{
+    "name": "idk",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "motor": "github:tt-stem/motor#a2ec6cea1c18f45fb0c9eff238893611d869a7ab",
+        "controller": "github:tt-stem/controller#71dd6ab1b9e1f5cb2f91b2d620a0b135dccc155a"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
